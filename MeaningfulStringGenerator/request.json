@@ -1,0 +1,684 @@
+{
+    "numRows": 1000,
+    "rows": [
+        {
+            "type": "Names",
+            "title": "surname",
+            "settings": {
+                "placeholder": "Name"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "g1",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "g2",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+        {
+            "type": "Date",
+            "title": "dob",
+            "settings": {
+                "fromDate": "01/01/2015",
+                "toDate": "01/01/2020",
+                "placeholder": "F jS, Y"
+            }
+        },
+        {
+            "type": "NumberRange",
+            "title": "sex",
+            "settings": {
+                "rangeMin": 0,
+                "rangeMax": 1
+            }
+        },
+        {
+            "type": "NumberRange",
+            "title": "age_group",
+            "settings": {
+                "rangeMin": 0,
+                "rangeMax": 10
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "cause_of_absence",
+            "settings": {
+                "placeholder": "xxxxxxxx"
+            }
+        },
+        {
+            "type": "NumberRange",
+            "title": "Num_missing",
+            "settings": {
+                "rangeMin": 0,
+                "rangeMax": 50
+            }
+        },
+        {
+            "type": "NumberRange",
+            "title": "age_first",
+            "settings": {
+                "rangeMin": 0,
+                "rangeMax": 10
+            }
+        },
+        {
+            "type": "NumberRange",
+            "title": "age_last",
+            "settings": {
+                "rangeMin": 10,
+                "rangeMax": 20
+            }
+        },
+        {
+            "type": "NumberRange",
+            "title": "missing_period",
+            "settings": {
+                "rangeMin": 0,
+                "rangeMax": 50
+            }
+        },
+        {
+            "type": "NumberRange",
+            "title": "missing_per_year",
+            "settings": {
+                "rangeMin": 0,
+                "rangeMax": 50
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "clothes",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "coat_color1",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "coat_type",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+        {
+            "type": "Date",
+            "title": "date_last_seen",
+            "settings": {
+                "fromDate": "01/01/2015",
+                "toDate": "01/01/2020",
+                "placeholder": "F jS, Y"
+            }
+        },
+        {
+            "type": "Date",
+            "title": "date_located",
+            "settings": {
+                "fromDate": "01/01/2015",
+                "toDate": "01/01/2020",
+                "placeholder": "F jS, Y"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "dress_type",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "hand",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "hat_type",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "hat_color1",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "jewelry_type",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+                {
+            "type": "AlphaNumeric",
+            "title": "missing_before",
+            "settings": {
+                "placeholder": "x"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "place_last_seen",
+            "settings": {
+                "placeholder": "xxxxx"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "pants_type",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "place_located",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "previously_found",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "shoes_type",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "shirt_type",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "skirt_type",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "young_offender",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "cyber_crime_type",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "demage_total",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "detail_count",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "district",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "down_time",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "durg_alcohol",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "drugs_total",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "family_violence",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "follow_up_count",
+            "settings": {
+                "placeholder": "x"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "founded",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "fraud_type",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "gang_involvement",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "gang_type",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "hate_crime_ind",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "how_method",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "location",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "location_code",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "loss_total",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "object_of_theft1",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "object_of_theft2",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "object_of_theft3",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "object_of_theft4",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "object_of_theft5",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "occ_date",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "occ_name",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "occ_time",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "occupancy_code",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "person_count",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "person_target",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "place_name",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "recovered_total",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "unident_count",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "vehicle_count",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "vehicle_target",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "vehicle_type",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "viclas_flag",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "violation_count",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "weapon_status",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "weapon_type",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "week_day",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "x_coordinate",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "y_coordinate",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "zone",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "caution",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "citizenship",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "build",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "complexion",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "country_of_birth",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "disability",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "drivers_license",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "employer",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "eye_color",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "facial_hair",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "facial_hair_color",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "List",
+            "title": "gang_name",
+            "settings": {
+                "listType": "exactly",
+                "exactly": 1,
+                "list": "test|orange||violet"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "hair_color",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "hair_style",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "height",
+            "settings": {
+                "placeholder": "xxx"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "language",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "marital_status",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "occupation",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "race",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        },
+        {
+            "type": "AlphaNumeric",
+            "title": "weight",
+            "settings": {
+                "placeholder": "LLLLL"
+            }
+        }
+    ],
+    "export": {
+    "type": "CSV",
+    "settings": {
+        "delimiter": ","
+        }
+    }
+}
