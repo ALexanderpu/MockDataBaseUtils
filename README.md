@@ -15,3 +15,5 @@ mysql -u root -proot -e "FLUSH PRIVILEGES;"
 ```
 
 #### 3. currently the code is only tested in the mysql database
+
+#### 4. it will wipe all of the tables of the same db name in the database you want to migrant to.
