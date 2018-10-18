@@ -1,0 +1,23 @@
+mysql_src:
+    host: 10.80.64.110
+    username: root
+    password: root
+    db: dbname
+    port: 3306
+mysql_dest:
+    host: 10.80.64.34
+    username: root
+    password: root
+    port: 3306
+postgres_src:
+    host: 10.80.64.110
+    username: postgres
+    password: postgresql
+    port: 5432
+postgres_dest:
+    host: 10.80.64.34
+    username: postgres
+    password: postgresql
+    port: 5432
+mock_database:
+    records_num: 20
