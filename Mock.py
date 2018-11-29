@@ -3,6 +3,7 @@
 import os
 import sys
 import yaml
+from decimal import *
 import random, string
 from datetime import datetime, timedelta
 from sqlalchemy import create_engine, MetaData, Table, Column, inspect
@@ -41,11 +42,16 @@ def datetime_random_generator(data_type, min_range, max_range):
         return result
 
 
+
 def number_random_generator(data_type, min_range, max_range):
     if data_type in without_decimal_types:
         return random.randint(min_range, max_range)  # endpoints included
     if data_type in with_decimal_types:
-        return random.uniform(min_range, max_range)
+        result = random.uniform(float(min_range), float(max_range))
+        if data_type == "DECIMAL":
+            return Decimal(result)
+        else:
+            return result
     if data_type == "BIT":
         return random.random() >= 0.5
     # how about "ENUM" "SET"
@@ -229,12 +235,21 @@ def insert_mock_data(config_file):
                     if datatypes[c] in datetime_types:
                         if record[c] != None:  # it's not None
                             if datatypes[c] == "TIME":
-                                cur_record = datetime.combine(datetime.min.date(), record[c])
+                                if type(record[c]) is datetime.time:
+                                    cur_record = datetime.combine(datetime.min.date(), record[c])
+                                else:
+                                    cur_record = datetime.min
                             elif datatypes[c] == "DATE":
-                                cur_record = datetime.combine(record[c], datetime.min.time())
+                                if type(record[c]) is datetime.date:
+                                    cur_record = datetime.combine(record[c], datetime.min.time())
+                                else:
+                                    cur_record = datetime.min
                             else:
                                 # DATETIME, TIMESTAMP
-                                cur_record = record[c]
+                                if type(record[c]) is datetime:			
+                                    cur_record = record[c]
+                                else:
+                                    cur_record = datetime.min
                             max_ranges[c] = max(max_ranges[c], cur_record)
                             min_ranges[c] = min(min_ranges[c], cur_record)
 
