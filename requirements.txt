@@ -59,7 +59,6 @@ pyOpenSSL==18.0.0
 pyparsing==2.2.0
 pytz==2018.5
 PyWavelets==1.0.0
-PyYAML==3.13
 pyzmq==17.1.2
 scikit-image==0.14.0
 scikit-learn==0.19.2
